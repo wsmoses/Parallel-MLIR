@@ -60,6 +60,7 @@ set(LIBS
   MLIRSPIRVTransforms
   MLIRStandardOps
   MLIRStandardToLLVM
+  MLIRTapir
   MLIRTransforms
   MLIRTransformUtils
   MLIRTestDialect

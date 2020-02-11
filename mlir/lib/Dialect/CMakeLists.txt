@@ -10,6 +10,7 @@ add_subdirectory(SDBM)
 add_subdirectory(Shape)
 add_subdirectory(SPIRV)
 add_subdirectory(StandardOps)
+add_subdirectory(Tapir)
 add_subdirectory(VectorOps)
 
 
@@ -48,5 +49,6 @@ target_link_libraries(MLIRAllDialects
   MLIRShape
   MLIRSPIRV
   MLIRStandardOps
+  MLIRTapir
   MLIRVectorOps
 )
